@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css">
     <title>Lab 2 Meeting Note</title>
     <meta charset="UTF-8">
-    <a href="https://github.com/">Made by Github</a>
+    <link href="https://github.com/">Made by Github
+    <style>
+        h1{
+        background-color: darksalmon;
+        color: #0202AA;
+        font-size: 60pt;
+        margin: 20px 20px 20px 20px;
+        display: inline;
+        height:fit-content;
+        width:fit-content;
+        }
+        
+    </style>
   </head>
+  <body>
   <main>
     <header>
     <h1>
         Quater  Seminar
     </h1>
-
+<div class="flex-container">
+    <p>Check-In</p>
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+</div>
     <h4>Date: Oct 6th</h4>
     <nav>
-        <a href="#recording">Recording</a><br />
+        <a href="#recording">Recording</a><br>
     </nav>
     </header>
     <h2>Attendance List</h2>
-        <div>Peter <br> Chris <br>  Jack<br></div>
+        <div id="attlist">Peter <br> Chris <br>  Jack<br></div>
 
     <h2> Agenda</h2>
-        
             <ol>
                 <li>Summarize the work of the previous quarter</li>
                 <li>Set goals for this quarter</li>
                 <li>Giving opinions</li>
             </ol>
-        
     <h2> Unfinshed Stuff</h2>
         <div>Announcement of promotion </div>
-    
     <h2>
         Summarizing work
     </h2>
@@ -37,6 +55,7 @@
     <h2>
         Discussion
     </h2>
+    <div><a href="#internal">Internal link</a></div>
     <div> See recording</div>
     <h2>
         Making Decision
@@ -47,21 +66,25 @@
     <div> Group 1 was assigned for new quater product development.</div>
     <div> Group 2 was assigned for product maintance.</div>
     <section>
-        
     </section>
+    <div><p class="in">Plan for next meeting</p></div>
+    <div class="grid-container">
+        <div class="grid-item">1.End up works</div>
+        <div class="grid-item">2.Share seasonly goals</div>
+        <div class="grid-item">3.Handling personnel changes</div>
+    </div>
     <h3>Comments</h3>
     <hr>
         <ul>
             <li><i>Delay submiting monthly report</i></li>
             <li><em>Make the role of each group clear</em></li>
         </ul>
-    <div id = "recording"></div>
+    <div id="recording"></div>
     <h3> Audio and Recording for Meeting(Just randomly choose my video and audio) </h3>
     <div>
         <audio src="./P.O.P.mp3" controls>
         </audio>
     </div>
-    
     <div>
         <video width="320" height="240" src="./30_seconds_digital_clock_display_of_sixteen_segments.mp4" controls>
         </video>
@@ -70,7 +93,7 @@
         <summary>Details</summary>
         Nothing now.
     </details>
-    <button>
+    <button type="button">
     This is a button.
     </button>
     <select>
@@ -78,11 +101,12 @@
         <option >Group1</option>
         <option >Group2</option>
     </select>
-    <h3>Your Opinions</h3>
+    <h4>Your Opinions</h4>
     <textarea></textarea>
     <footer>
         <b>CopyRight: Chris Chen</b>
         <strong>Do not Use without premission.</strong>
     </footer>
     </main>
+</body>
 </html>
