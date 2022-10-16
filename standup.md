@@ -1,6 +1,6 @@
-STANDUP 
-Participants: 
-Name1: 
-Name2:
-Name3: 
+STANDUP  
+Participants:  
+Name1:  
+Name2:  
+Name3:  
 
